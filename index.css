@@ -6,6 +6,14 @@ header{
 table{
     width: 1000px;
 }
-.class{
-    border: 2cm;
+.butt{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: none;
+}
+.cim{
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: large;
 }
