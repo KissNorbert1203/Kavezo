@@ -17,3 +17,13 @@ table{
     margin-left: 5px;
     font-size: large;
 }
+footer{
+    background-color: #E4D1B4;
+    height: 40px;
+    border: 0cm;
+}
+.foothertext{
+    margin-top:  20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
