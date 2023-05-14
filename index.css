@@ -21,14 +21,20 @@ footer{
     background-color: #E4D1B4;
     height: 40px;
     border: 0cm;
+    
+
 }
 .foothertext{
-    margin-top:  20px;
+    margin-top:  40px;
     margin-left: 5px;
     margin-right: 5px;
+    margin-bottom: 10px;
 }
 main{
-    background-image: (kaveorlo);
+    margin-left: 1000px;
+    margin-right: 10px;
+    margin-top: 100px;
+    margin-bottom: 500px;
     
 }
 body{
