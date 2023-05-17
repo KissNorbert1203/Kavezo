@@ -1,4 +1,4 @@
-
+@media only screen and (max-width: 1728px ) {
     body {
       background-image: url("kaveorlo.png");
       background-repeat: no-repeat;
@@ -43,7 +43,7 @@
         margin-left: 1000px;
         margin-right: 10px;
         margin-top: 100px;
-        margin-bottom: 775px;
+        margin-bottom: 500px;
     
     }
     .wordbox{
@@ -56,37 +56,11 @@
         font-size: 16px;
         color: white;
     }
-    
+    }
 @media only screen and (max-width: 393px ) {
     body {
       background-image: url("kaveorlo.png");
-      background-size: 500px;
-      background-repeat: no-repeat;
-      background-position: -200px;  
-    }
-    header{
-        width: 400px;
-        height: 80px;
-    }
-    main{
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 100px;
-        margin-bottom: 465px;
-        background-size: 4000;
-    }
-    .butt{
-        width: 65px;
-        margin-top: 10px;
-        margin-left: 5px;
-        margin-right: 5px;
-        background: none;
-    }
-    .cim{
-        font-size: medium;
-    }
-    .fooldal{
-        float: right;
+      background-size: 4000;
     }
   }
 @media only screen and (max-width: 1024px ) {
