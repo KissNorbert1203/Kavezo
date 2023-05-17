@@ -64,7 +64,7 @@
     }
     header{
         width: 400px;
-        height: 60px;
+        height: 80px;
     }
     main{
         margin-left: 10px;
@@ -85,7 +85,7 @@
         font-size: medium;
     }
     .fooldal{
-    
+    align-self: right;
     }
   }
 
