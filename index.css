@@ -146,11 +146,5 @@
         color: white;
     }
     }
-@media only screen and (max-width: 393px ) {
-    body {
-      background-image: url("kaveorlo.png");
-      background-size: 4000;
-    }
-  }
 
   
