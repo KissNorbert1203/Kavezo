@@ -90,12 +90,15 @@
     }
     footer{
         background-color: #E4D1B4;
-        height: 10px;
+        height: 60px;
         margin-top: 20px;
         border: 0cm;
+    
+
+    }
   }
 
-}
+
 .foothertext{
     margin-top:  50px;
     margin-left: 5px;
