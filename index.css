@@ -1,4 +1,94 @@
-@media only screen and (max-width: 1728px ) {
+
+    body {
+      background-image: url("kaveorlo.png");
+      background-repeat: no-repeat;
+      background-size: 1800px;
+      
+    }
+    header{
+        background-color: #E4D1B4;
+        height: 40px;
+        border: 0cm;
+    }
+    table{
+        width: 1000px;
+    }
+    .butt{
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        background: none;
+    }
+    .cim{
+        margin-top: 15px;
+        margin-left: 5px;
+        font-size: large;
+    }
+    footer{
+        background-color: #E4D1B4;
+        height: 40px;
+        margin-top: 20px;
+        border: 0cm;
+    
+
+    }
+    .foothertext{
+        margin-top:  50px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+    main{
+        margin-left: 1000px;
+        margin-right: 10px;
+        margin-top: 100px;
+        margin-bottom: 500px;
+    
+    }
+    .wordbox{
+        color: white;
+        background-color: rgba(68, 68, 68, 0.7);
+    }
+    .idezo{
+        font-style: italic;
+        text-align: right;
+        font-size: 16px;
+        color: white;
+    }
+    
+@media only screen and (max-width: 393px ) {
+    body {
+      background-image: url("kaveorlo.png");
+      background-size: 500px;
+
+    }
+    header{
+        width: 400px;
+        height: 80px;
+    }
+    main{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 100px;
+        margin-bottom: 465px;
+    
+      background-size: 4000;
+    }
+    .butt{
+        width: 65px;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        background: none;
+    }
+    .cim{
+        font-size: medium;
+    }
+    .fooldal{
+    align-self: right;
+    }
+  }
+@media only screen and (max-width: 1024px ) {
     body {
       background-image: url("kaveorlo.png");
       background-repeat: no-repeat;
