@@ -41,6 +41,7 @@ main{
 body{
  background-repeat: no-repeat;
  background-size: 1800px;
+ background-image: url("kaveorlo.png");
  
 }
 .wordbox{
@@ -55,6 +56,6 @@ body{
 }
 @media only screen and (max-width: 393px ) {
     body {
-      background-color: lightblue;
+      background-image: url("kaveorlo.png");
     }
   }
