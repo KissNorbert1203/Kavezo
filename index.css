@@ -4,6 +4,7 @@
       background-repeat: no-repeat;
       background-size: 1800px;
       
+      
     }
     header{
         background-color: #E4D1B4;
@@ -60,7 +61,8 @@
     body {
       background-image: url("kaveorlo.png");
       background-size: 500px;
-
+      background-repeat: no-repeat;
+      background-position: 1000px;  
     }
     header{
         width: 400px;
