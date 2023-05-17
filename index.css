@@ -71,6 +71,7 @@
         margin-top: 100px;
         margin-bottom: 465px;
     
+      background-size: 4000;
     }
     .butt{
         width: 10px;
@@ -86,8 +87,5 @@
         font-size: large;
     }
   }
-@media only screen and (max-width: 834px ) {
-    body {
-      background-image: url("kaveorlo.png");
-    }
-}
+
+  
