@@ -96,8 +96,8 @@
       
     }
     header{
-        background-color: #E4D1B4;
-        height: 40px;
+        background-color: #E4D1B4;        
+        height: 60px;
         border: 0cm;
     }
     table{
@@ -146,4 +146,11 @@
         color: white;
     }
     }
+@media only screen and (max-width: 393px ) {
+    body {
+      background-image: url("kaveorlo.png");
+      background-size: 4000;
+    }
+  }
+
   
