@@ -6,8 +6,8 @@
       
     }
     header{
-        background-color: #E4D1B4;
-        height: 40px;
+        background-color: #E4D1B4;        
+        height: 60px;
         border: 0cm;
     }
     table{
@@ -59,29 +59,7 @@
 @media only screen and (max-width: 393px ) {
     body {
       background-image: url("kaveorlo.png");
-      background-size: 500px;
-
-    }
-    header{
-        width: 1000px;
-    }
-    main{
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 100px;
-        margin-bottom: 465px;
-    
       background-size: 4000;
-    }
-    .butt{
-        width: 55px;
-        margin-top: 10px;
-        margin-left: 5px;
-        margin-right: 5px;
-        background: none;
-    }
-    .cim{
-        font-size: medium;
     }
   }
 
