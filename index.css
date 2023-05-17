@@ -90,16 +90,30 @@
     }
     footer{
         background-color: #E4D1B4;
-        height: 10px;
+        height: 60px;
         margin-top: 20px;
         border: 0cm;
+    
+
+    }
+    .foothertext{
+        margin-top:  50px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
   }
-}
+
+
 .foothertext{
     margin-top:  50px;
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 10px;
+}
+.wordbox{
+    color: white;
+    background-color: rgba(68, 68, 68, 0.7);
 }
 @media only screen and (max-width: 1024px ) {
     body {
