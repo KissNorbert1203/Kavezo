@@ -63,7 +63,8 @@
 
     }
     header{
-        width: 1000px;
+        width: 400px;
+        height: 60px;
     }
     main{
         margin-left: 10px;
@@ -74,7 +75,7 @@
       background-size: 4000;
     }
     .butt{
-        width: 55px;
+        width: 65px;
         margin-top: 10px;
         margin-left: 5px;
         margin-right: 5px;
@@ -82,6 +83,9 @@
     }
     .cim{
         font-size: medium;
+    }
+    .fooldal{
+    
     }
   }
 
