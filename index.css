@@ -88,6 +88,14 @@
     .fooldal{
         float: right;
     }
+    footer{
+        background-color: #E4D1B4;
+        height: 60px;
+        margin-top: 20px;
+        border: 0cm;
+    
+
+    }
   }
 @media only screen and (max-width: 1024px ) {
     body {
