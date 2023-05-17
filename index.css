@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1728px ) {
+
     body {
       background-image: url("kaveorlo.png");
       background-repeat: no-repeat;
@@ -55,7 +55,7 @@
         font-size: 16px;
         color: white;
     }
-    }
+    
 @media only screen and (max-width: 393px ) {
     body {
       background-image: url("kaveorlo.png");
