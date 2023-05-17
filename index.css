@@ -85,7 +85,7 @@
         font-size: medium;
     }
     .fooldal{
-    align-self: right;
+        float: right;
     }
   }
 @media only screen and (max-width: 1024px ) {
