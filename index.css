@@ -80,6 +80,10 @@
         color: white;
 
      }
+     .kavearak{
+        color: white;
+        margin-top: 100px;
+     }
     
 @media only screen and (max-width: 393px ) {
     body {
