@@ -39,12 +39,15 @@
         margin-right: 5px;
         margin-bottom: 10px;
     }
-    main{
+    .indexmain{
         margin-left: 1000px;
         margin-right: 10px;
         margin-top: 100px;
         margin-bottom: 775px;
     
+    }
+    .kavemain{
+        margin-top: 400px;
     }
     .wordbox{
         color: white;
@@ -55,6 +58,9 @@
         text-align: right;
         font-size: 16px;
         color: white;
+    }
+    .valasztek{
+       text-align: center;
     }
     
 @media only screen and (max-width: 393px ) {
