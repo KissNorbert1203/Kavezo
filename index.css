@@ -47,7 +47,7 @@
     
     }
     .kavemain{
-        margin-top: 400px;
+        margin-top: 500px;
     }
     .wordbox{
         color: white;
@@ -61,13 +61,25 @@
     }
     .valasztek{
        /*text-align: center;*/
-       /*margin-left: 900px;*/
-       margin-right: 900px;
+       margin-left: 850px;
+       margin-right: 850px;
        position: initial;
        /*background: #D9D9D9;*/
        border: 50px;
+       color: white;
+
        
     }
+    .alcim{
+        /*text-align: center;*/
+        margin-left: 900px;
+        margin-right: 900px;
+        position: initial;
+        /*background: #D9D9D9;*/
+        border: 50px;
+        color: white;
+
+     }
     
 @media only screen and (max-width: 393px ) {
     body {
