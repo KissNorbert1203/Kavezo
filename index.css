@@ -4,29 +4,23 @@
       background-repeat: no-repeat;
       background-size: 1800px;
     }
+
     .kavebody{
 
     }
+
     .blogbody{
 
     }
+
+
+
     header{
         background-color: #E4D1B4;
         height: 40px;
         border: 0cm;
+        /*min-width: 393px;*/
     }
-    footer{
-        background-color: #E4D1B4;
-        height: 40px;
-        margin-top: 20px;
-        border: 0cm;
-    
-
-    }
-    .kavetable{
-        width: 1000px;
-    }
-
     .butt{
         margin-top: 10px;
         margin-left: 5px;
@@ -39,23 +33,32 @@
         font-size: large;
     }
 
+    footer{
+        background-color: #E4D1B4;
+        height: 40px;
+        margin-top: 20px;
+        border: 0cm;
+    }
     .foothertext{
         margin-top:  50px;
         margin-left: 5px;
         margin-right: 5px;
         margin-bottom: 10px;
     }
+
+
+
     .indexmain{
-        margin-left: 1000px;
         margin-right: 10px;
         margin-top: 100px;
         margin-bottom: 775px;
-    
-    }
-    .kavemain{
-        margin-top: 500px;
     }
     .wordbox{
+        float: right;
+        max-width: 600px;
+        min-width: 300px;
+        margin-right: 20px;
+        margin-left: 20px;
         color: white;
         background-color: rgba(68, 68, 68, 0.7);
     }
@@ -65,7 +68,15 @@
         font-size: 16px;
         color: white;
     }
+
+
+
     /*Kávéválaszték*/
+
+
+    .kavemain{
+        margin-top: 500px;
+    }
     .valasztek{
                          /*text-align: center;*/
        margin-left: 850px;
@@ -100,7 +111,7 @@
         float: right;
         margin-left: 500px;
      }
-     table{
+     .kavetable{
         width: 1630px;
         height: 295px;
         margin-left: 45px;
@@ -109,18 +120,22 @@
         background: #E4D1B4;
         border: 100px #E4D1B4;
      }
+
+     .col-1 {width: 8.33%;}
+     .col-2 {width: 16.66%;}
+     .col-3 {width: 25%;}
+     .col-4 {width: 33.33%;}
+     .col-5 {width: 41.66%;}
+     .col-6 {width: 50%;}
+     .col-7 {width: 58.33%;}
+     .col-8 {width: 66.66%;}
+     .col-9 {width: 75%;}
+     .col-10 {width: 83.33%;}
+     .col-11 {width: 91.66%;}
+     .col-12 {width: 100%;}
+
+     /*Kávéválaszték*/
     
-<<<<<<< HEAD
-
-
-/**/     
-@media only screen and (max-width: 39px ) {
-    .indexbody {
-      background-image: url("kaveorlo.png");
-      background-size: 500px;
-      background-repeat: no-repeat;
-      background-position: -200px;
-=======
 @media only screen and (max-width: 393px ) {
     body {
       background-image: url("kaveorlo.png");
@@ -128,7 +143,6 @@
       background-repeat: no-repeat;
       background-position-x: -250px;
       background-position-y: 20px;  
->>>>>>> 9b3a822b397be09c3142448b4d053ca52fd05732
     }
     header{
         background-color: #E4D1B4;
@@ -234,13 +248,16 @@
         margin-bottom: 10px;
     }
     .indexmain{
-        margin-left: 500px;
         margin-right: 50px;
         margin-top: 100px;
         margin-bottom: 980px;
     
     }
     .wordbox{
+        float: right;
+        max-width: 600px;
+        margin-right: 20px;
+        margin-left: 20px;
         color: white;
         background-color: rgba(68, 68, 68, 0.7);
     }
