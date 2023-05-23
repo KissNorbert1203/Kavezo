@@ -1,19 +1,32 @@
 
-    body {
+    .indexbody {
       background-image: url("kaveorlo.png");
       background-repeat: no-repeat;
       background-size: 1800px;
-      
-      
+    }
+    .kavebody{
+
+    }
+    .blogbody{
+
     }
     header{
         background-color: #E4D1B4;
         height: 40px;
         border: 0cm;
     }
-    table{
+    footer{
+        background-color: #E4D1B4;
+        height: 40px;
+        margin-top: 20px;
+        border: 0cm;
+    
+
+    }
+    .kavetable{
         width: 1000px;
     }
+
     .butt{
         margin-top: 10px;
         margin-left: 5px;
@@ -25,14 +38,7 @@
         margin-left: 5px;
         font-size: large;
     }
-    footer{
-        background-color: #E4D1B4;
-        height: 40px;
-        margin-top: 20px;
-        border: 0cm;
-    
 
-    }
     .foothertext{
         margin-top:  50px;
         margin-left: 5px;
@@ -104,12 +110,15 @@
         border: 100px #E4D1B4;
      }
     
+
+
+/**/     
 @media only screen and (max-width: 39px ) {
-    body {
+    .indexbody {
       background-image: url("kaveorlo.png");
       background-size: 500px;
       background-repeat: no-repeat;
-      background-position: -200px;  
+      background-position: -200px;
     }
     header{
         width: 400px;
