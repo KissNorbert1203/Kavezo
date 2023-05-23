@@ -14,11 +14,15 @@
     }
 
     .kavebody {
-
+        background-image: url("Cappuccino.jpg");
+        background-repeat: no-repeat;
+        background-size: 1800px;
+        background-position-x: -350px;
+        background-position-y: -20px;
     }
 
     .blogbody {
-
+        width: 100;
     }
 
 
@@ -233,12 +237,12 @@
 
 /*Tablet Beállítások*/
 @media only screen and (max-width: 1024px ) {
-    body {
+    .indexbody {
       background-image: url("kaveorlo.png");
       background-repeat: no-repeat;
       background-size: 2200px;
-      background-position-x: -250px;
-      background-position-y: 20px;
+      background-position-x: 0px;
+      background-position-y: 0px;
       
     }
     header{
@@ -263,9 +267,8 @@
     footer{
         background-color: #E4D1B4;
         height: 40px;
-        margin-top: 20px;
+        margin-top: 930px;
         border: 0cm;
-    
 
     }
     .foothertext{
