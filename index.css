@@ -5,32 +5,43 @@
       background-size: 1800px;
     }
 
-    .kavebody{
+    .süteménybody {
+       background-image: url("Cappuccino.jpg");
+       background-repeat: no-repeat;
+       background-size: 1800px;
+       background-position-x: -350px;
+       background-position-y: -20px;
+    }
+
+    .kavebody {
 
     }
 
-    .blogbody{
+    .blogbody {
 
     }
 
 
-
+/*Fejléc lábléck*/
     header{
         background-color: #E4D1B4;
         height: 40px;
         border: 0cm;
-        /*min-width: 393px;*/
+
     }
+
     .butt{
         margin-top: 10px;
         margin-left: 5px;
         margin-right: 5px;
         background: none;
     }
+
     .cim{
         margin-top: 15px;
         margin-left: 5px;
         font-size: large;
+
     }
 
     footer{
@@ -39,20 +50,25 @@
         margin-top: 20px;
         border: 0cm;
     }
+
     .foothertext{
         margin-top:  50px;
         margin-left: 5px;
         margin-right: 5px;
         margin-bottom: 10px;
-    }
 
+    }
+/*fejléc lábléc*/
 
 
     .indexmain{
         margin-right: 10px;
         margin-top: 100px;
         margin-bottom: 775px;
+
     }
+
+
     .wordbox{
         float: right;
         max-width: 600px;
@@ -61,56 +77,65 @@
         margin-left: 20px;
         color: white;
         background-color: rgba(68, 68, 68, 0.7);
+
     }
+
     .idezo{
         font-style: italic;
         text-align: right;
         font-size: 16px;
         color: white;
+
     }
 
 
 
-    /*Kávéválaszték*/
+/*Kávéválaszték*/
 
 
     .kavemain{
         margin-top: 500px;
+
     }
+
     .valasztek{
-                         /*text-align: center;*/
+
        margin-left: 850px;
        margin-right: 850px;
        position: initial;
-                        /*background: #D9D9D9;*/
        border: 50px;
-       color: white;
+       color: white; 
 
-       
     }
+
     .alcim{
-                        /*text-align: center;*/
         margin-left: 900px;
         margin-right: 900px;
         margin-top: 20px;
         position: initial;
-                        /*background: #D9D9D9;*/
         border: 50px;
         color: white;
 
      }
+
      .kavearak{
         color: rgb(0, 0, 0);
         margin-top: 100px;
+
      }
+
      .oszlop1{
         margin-right: 1000px;
         margin-left: 20px;
+
      }
+
      .oszlop2{
         float: right;
         margin-left: 500px;
+
      }
+
      .kavetable{
         width: 1630px;
         height: 295px;
@@ -119,23 +144,31 @@
         font-size: 16px;
         background: #E4D1B4;
         border: 100px #E4D1B4;
+
      }
+/*Kávéválaszték*/
 
-     .col-1 {width: 8.33%;}
-     .col-2 {width: 16.66%;}
-     .col-3 {width: 25%;}
-     .col-4 {width: 33.33%;}
-     .col-5 {width: 41.66%;}
-     .col-6 {width: 50%;}
-     .col-7 {width: 58.33%;}
-     .col-8 {width: 66.66%;}
-     .col-9 {width: 75%;}
-     .col-10 {width: 83.33%;}
-     .col-11 {width: 91.66%;}
-     .col-12 {width: 100%;}
 
-     /*Kávéválaszték*/
-    
+
+/*Mediaquery dekstop*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+     
+
+/*Telefon Beállítások*/     
 @media only screen and (max-width: 393px ) {
     body {
       background-image: url("kaveorlo.png");
@@ -194,17 +227,11 @@
     }
   
     }
-   
-.foothertext{
-    margin-top:  50px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 10px;
-    }
-    .wordbox{
-         color: rgb(255, 255, 255);
-        background-color: rgba(68, 68, 68, 0.7);
-    }
+/*Telefon Beállítások*/
+
+
+
+/*Tablet Beállítások*/
 @media only screen and (max-width: 1024px ) {
     body {
       background-image: url("kaveorlo.png");
@@ -310,11 +337,5 @@
         background: #E4D1B4;
         border: 100px #E4D1B4;
      }
-     }
-     .süteménybody{
-        background-image: url("Cappuccino.jpg");
-        background-repeat: no-repeat;
-        background-size: 1800px;
-        background-position-x: -350px;
-        background-position-y: -20px;
-     }
+    }
+/*Tablet beállítások*/
