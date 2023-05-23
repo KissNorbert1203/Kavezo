@@ -161,7 +161,6 @@
     }
   
     }
-<<<<<<< HEAD
    
 .foothertext{
     margin-top:  50px;
@@ -173,14 +172,6 @@
          color: rgb(255, 255, 255);
         background-color: rgba(68, 68, 68, 0.7);
     }
-=======
-}
-
-.wordbox{
-    color: rgb(255, 255, 255);
-    background-color: rgba(68, 68, 68, 0.7);
-}
->>>>>>> ab2e2c1b078f2e913f17aab9545a54aa52825217
 @media only screen and (max-width: 1024px ) {
     body {
       background-image: url("kaveorlo.png");
