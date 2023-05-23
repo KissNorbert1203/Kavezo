@@ -232,6 +232,54 @@
         font-size: 16px;
         color: white;
     }
+    .kavemain{
+        margin-top: 500px;
     }
-
-  
+    .valasztek{
+       /*text-align: center;*/
+       margin-left: 850px;
+       margin-right: 850px;
+       position: initial;
+       /*background: #D9D9D9;*/
+       border: 50px;
+       color: white;
+    }
+    .alcim{
+        /*text-align: center;*/
+        margin-left: 900px;
+        margin-right: 900px;
+        margin-top: 20px;
+        position: initial;
+        /*background: #D9D9D9;*/
+        border: 50px;
+        color: white;
+     }
+     .kavearak{
+        color: rgb(0, 0, 0);
+        margin-top: 100px;
+     }
+     .oszlop1{
+        margin-right: 1000px;
+        margin-left: 20px;
+     }
+     .oszlop2{
+        float: right;
+        margin-left: 500px;
+     }
+     table{
+        width: 1630px;
+        height: 295px;
+        margin-left: 45px;
+        margin-bottom: 40px;
+        font-size: 16px;
+        background: #E4D1B4;
+        border: 100px #E4D1B4;
+     }
+     }
+     .süteménybody{
+        background-image: url("Cappuccino.jpg");
+        background-repeat: no-repeat;
+        background-size: 1800px;
+        background-position-x: -350px;
+        background-position-y: -20px;
+     }
