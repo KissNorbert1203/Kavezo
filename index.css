@@ -109,7 +109,8 @@
       background-image: url("kaveorlo.png");
       background-size: 500px;
       background-repeat: no-repeat;
-      background-position: -200px;  
+      background-position-x: -250px;
+      background-position-y: 20px;  
     }
     header{
         background-color: #E4D1B4;
@@ -118,11 +119,10 @@
         border: 0cm;
     }
     .indexmain{
-        margin-left: 200px;
-        margin-right: 100px;
-        margin-top: 150px;
-        margin-bottom: 150px;
-        background-size: 2000;
+        margin-left: 500px;
+        margin-right: 50px;
+        margin-top: 100px;
+        margin-bottom: 1500px;
     }
     
     .butt{
@@ -151,13 +151,14 @@
         margin-top:100px;
 
     }
+    .blogbutt{
+        float: left;
+    }
     footer{
         background-color: #E4D1B4;
         height: 60px;
         margin-top: 0px;
         border: 0cm;
-    
-
     }
   
     }
