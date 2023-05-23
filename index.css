@@ -173,7 +173,7 @@
      
 
 /*Telefon Beállítások*/     
-@media only screen and (max-width: 393px ) {
+@media only screen and (max-width: 394px ) {
     body {
       background-image: url("kaveorlo.png");
       background-size: 500px;
@@ -229,14 +229,33 @@
         margin-top: 0px;
         border: 0cm;
     }
-  
+    /*föoldal szöveg*/
+    .wordbox{
+        float: left;
+        max-width: 600px;
+        min-width: 250px;
+        margin-right: 39px;
+        margin-left: 0px;
+        color: white;
+        background-color: rgba(68, 68, 68, 0.7);
+    
+    }
+
+    .idezo{
+        font-style: italic;
+        text-align: right;
+        font-size: 16px;
+        color: white;
+
+    }
+    /*föoldal szöveg*/
     }
 /*Telefon Beállítások*/
 
 
 
 /*Tablet Beállítások*/
-@media only screen and (max-width: 1024px ) {
+@media only screen and (max-width: 1024px) {
     .indexbody {
       background-image: url("kaveorlo.png");
       background-repeat: no-repeat;
