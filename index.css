@@ -59,24 +59,25 @@
         font-size: 16px;
         color: white;
     }
+    /*Kávéválaszték*/
     .valasztek{
-       /*text-align: center;*/
+                         /*text-align: center;*/
        margin-left: 850px;
        margin-right: 850px;
        position: initial;
-       /*background: #D9D9D9;*/
+                        /*background: #D9D9D9;*/
        border: 50px;
        color: white;
 
        
     }
     .alcim{
-        /*text-align: center;*/
+                        /*text-align: center;*/
         margin-left: 900px;
         margin-right: 900px;
         margin-top: 20px;
         position: initial;
-        /*background: #D9D9D9;*/
+                        /*background: #D9D9D9;*/
         border: 50px;
         color: white;
 
@@ -150,13 +151,6 @@
     }
   }
 
-
-.foothertext{
-    margin-top:  50px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 10px;
-}
 .wordbox{
     color: white;
     background-color: rgba(68, 68, 68, 0.7);
@@ -203,11 +197,11 @@
         margin-right: 5px;
         margin-bottom: 10px;
     }
-    main{
-        margin-left: 600px;
-        margin-right: 50px;
-        margin-top: 100px;
-        margin-bottom: 955px;
+    .indexmain{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
     
     }
     .wordbox{
