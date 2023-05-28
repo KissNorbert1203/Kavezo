@@ -255,7 +255,7 @@
 
 
 /*Tablet Beállítások*/
-@media only screen and (max-width: 394px) {
+@media only screen and (max-width: 1024px) {
     .indexbody {
       background-image: url("kaveorlo.png");
       background-repeat: no-repeat;
