@@ -16,7 +16,7 @@
     .kavebody {
         background-image: url("Cappuccino.jpg");
         background-repeat: no-repeat;
-        background-size: 1800px;
+        background-size: 2100px;
         background-position-x: -350px;
         background-position-y: -20px;
     }
@@ -51,7 +51,7 @@
     footer{
         background-color: #E4D1B4;
         height: 40px;
-        margin-top: 20px;
+        margin-top: 1020px;
         border: 0cm;
     }
 
@@ -103,18 +103,14 @@
     }
 
     .valasztek{
-
-       margin-left: 850px;
-       margin-right: 850px;
-       position: initial;
+       text-align: center; 
        border: 50px;
        color: white; 
 
     }
 
     .alcim{
-        margin-left: 900px;
-        margin-right: 900px;
+        text-align: center;
         margin-top: 20px;
         position: initial;
         border: 50px;
@@ -143,7 +139,7 @@
      .kavetable{
         width: 1630px;
         height: 295px;
-        margin-left: 45px;
+        
         margin-bottom: 40px;
         font-size: 16px;
         background: #E4D1B4;
@@ -260,8 +256,8 @@
       background-image: url("kaveorlo.png");
       background-repeat: no-repeat;
       background-size: 2200px;
-      background-position-x: 0px;
-      background-position-y: 0px;
+      background-position-x: -370px;
+      background-position-y: -275px;
       
     }
     header{
@@ -286,7 +282,7 @@
     footer{
         background-color: #E4D1B4;
         height: 40px;
-        margin-top: 930px;
+        margin-top: 1000px;
         border: 0cm;
 
     }
