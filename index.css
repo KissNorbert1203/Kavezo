@@ -255,10 +255,29 @@
     .indexbody {
       background-image: url("kaveorlo.png");
       background-repeat: no-repeat;
-      background-size: 2200px;
-      background-position-x: -370px;
+      background-size: 2600px;
+      background-position-x: -350px;
       background-position-y: -275px;
-      
+      margin-top: 500px;
+    }
+    .süteménybody {
+        background-image: url("Cappuccino.jpg");
+        background-repeat: no-repeat;
+        background-size: 1800px;
+        background-position-x: -350px;
+        background-position-y: -20px;
+    }
+    .kavebody {
+         background-image: url("Cappuccino.jpg");
+         background-repeat: no-repeat;
+         background-size: 2100px;
+         background-position-x: -350px;
+         background-position-y: -20px;
+    }
+    .blogbody {
+        background-image: url("kaveorlo.png");
+        background-repeat: no-repeat;
+        background-size: 2600px;
     }
     header{
         background-color: #E4D1B4;        
@@ -282,7 +301,7 @@
     footer{
         background-color: #E4D1B4;
         height: 40px;
-        margin-top: 1000px;
+        margin-top: 1250px;
         border: 0cm;
 
     }
@@ -354,6 +373,11 @@
         font-size: 16px;
         background: #E4D1B4;
         border: 100px #E4D1B4;
+     }
+     .kfooter{
+        height: 40px;
+        margin-top: 1250px;
+        border: 0cm;
      }
     }
 /*Tablet beállítások*/
