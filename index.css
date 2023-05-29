@@ -1,127 +1,263 @@
 
-    body {
+    .indexbody {
       background-image: url("kaveorlo.png");
       background-repeat: no-repeat;
       background-size: 1800px;
-      
-      
     }
+
+    .süteménybody {
+       background-image: url("Cappuccino.jpg");
+       background-repeat: no-repeat;
+       background-size: 1800px;
+       background-position-x: -350px;
+       background-position-y: -20px;
+    }
+
+    .kavebody {
+        background-image: url("Cappuccino.jpg");
+        background-repeat: no-repeat;
+        background-size: 2100px;
+        background-position-x: -350px;
+        background-position-y: -20px;
+    }
+
+    .blogbody {
+        width: 100;
+    }
+
+
+/*Fejléc lábléck*/
     header{
         background-color: #E4D1B4;
         height: 40px;
         border: 0cm;
+
     }
-    table{
-        width: 1000px;
-    }
+
     .butt{
         margin-top: 10px;
         margin-left: 5px;
         margin-right: 5px;
         background: none;
     }
+
     .cim{
         margin-top: 15px;
         margin-left: 5px;
         font-size: large;
+
     }
+
     footer{
         background-color: #E4D1B4;
         height: 40px;
-        margin-top: 20px;
+        margin-top: 1020px;
         border: 0cm;
-    
-
     }
+
     .foothertext{
         margin-top:  50px;
         margin-left: 5px;
         margin-right: 5px;
         margin-bottom: 10px;
+
     }
-    main{
-        margin-left: 1000px;
+/*fejléc lábléc*/
+
+
+    .indexmain{
         margin-right: 10px;
         margin-top: 100px;
         margin-bottom: 775px;
-    
+
     }
+
+
     .wordbox{
+        float: right;
+        max-width: 600px;
+        min-width: 300px;
+        margin-right: 20px;
+        margin-left: 20px;
         color: white;
         background-color: rgba(68, 68, 68, 0.7);
+
     }
+
     .idezo{
         font-style: italic;
         text-align: right;
         font-size: 16px;
         color: white;
+
     }
-    
-@media only screen and (max-width: 393px ) {
+
+
+
+/*Kávéválaszték*/
+
+
+    .kavemain{
+        margin-top: 500px;
+
+    }
+
+    .valasztek{
+       text-align: center; 
+       border: 50px;
+       color: white; 
+
+    }
+
+    .alcim{
+        text-align: center;
+        margin-top: 20px;
+        position: initial;
+        border: 50px;
+        color: white;
+
+     }
+
+     .kavearak{
+        color: rgb(0, 0, 0);
+        margin-top: 100px;
+
+     }
+
+     .oszlop1{
+        margin-right: 1000px;
+        margin-left: 20px;
+
+     }
+
+     .oszlop2{
+        float: right;
+        margin-left: 500px;
+
+     }
+
+     .kavetable{
+        width: 1630px;
+        height: 295px;
+        
+        margin-bottom: 40px;
+        font-size: 16px;
+        background: #E4D1B4;
+        border: 100px #E4D1B4;
+
+     }
+/*Kávéválaszték*/
+
+
+
+/*Mediaquery dekstop*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+     
+
+/*Telefon Beállítások*/     
+@media only screen and (max-width: 394px ) {
     body {
       background-image: url("kaveorlo.png");
       background-size: 500px;
       background-repeat: no-repeat;
-      background-position: -200px;  
+      background-position-x: -250px;
+      background-position-y: 20px;  
     }
     header{
-        width: 400px;
-        height: 120px;
+        background-color: #E4D1B4;
+        height: 60px;
+        margin-top: 0px;
+        border: 0cm;
     }
-    main{
-        margin-left: 10px;
-        margin-right: 10px;
+    .indexmain{
+        margin-left: 500px;
+        margin-right: 50px;
         margin-top: 100px;
-        margin-bottom: 465px;
-        background-size: 4000;
+        margin-bottom: 1500px;
     }
+    
     .butt{
-        width: 65px;
+        width: 110px;
         margin-top: 10px;
         margin-left: 5px;
         margin-right: 5px;
         background: none;
     }
+
     .cim{
         font-size: medium;
+    }
+    .mobilebutt{
+        width:110px;
+        margin-top:10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        background: none;
+
     }
     .fooldal{
         float: right;
     }
+    .fooldalbutt{
+        margin-top:100px;
+
+    }
+    .blogbutt{
+        float: left;
+    }
     footer{
         background-color: #E4D1B4;
         height: 60px;
-        margin-top: 20px;
+        margin-top: 0px;
         border: 0cm;
+    }
+    /*föoldal szöveg*/
+    .wordbox{
+        float: left;
+        max-width: 600px;
+        min-width: 250px;
+        margin-right: 39px;
+        margin-left: 0px;
+        color: white;
+        background-color: rgba(68, 68, 68, 0.7);
     
+    }
+
+    .idezo{
+        font-style: italic;
+        text-align: right;
+        font-size: 16px;
+        color: white;
 
     }
-    .foothertext{
-        margin-top:  50px;
-        margin-left: 5px;
-        margin-right: 5px;
-        margin-bottom: 10px;
+    /*föoldal szöveg*/
     }
-  }
+/*Telefon Beállítások*/
 
 
-.foothertext{
-    margin-top:  50px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 10px;
-}
-.wordbox{
-    color: white;
-    background-color: rgba(68, 68, 68, 0.7);
-}
-@media only screen and (max-width: 1024px ) {
-    body {
+
+/*Tablet Beállítások*/
+@media only screen and (max-width: 1024px) {
+    .indexbody {
       background-image: url("kaveorlo.png");
       background-repeat: no-repeat;
       background-size: 2200px;
-      background-position-x: -250px;
-      background-position-y: 20px;
+      background-position-x: -370px;
+      background-position-y: -275px;
       
     }
     header{
@@ -146,9 +282,8 @@
     footer{
         background-color: #E4D1B4;
         height: 40px;
-        margin-top: 20px;
+        margin-top: 1000px;
         border: 0cm;
-    
 
     }
     .foothertext{
@@ -157,14 +292,17 @@
         margin-right: 5px;
         margin-bottom: 10px;
     }
-    main{
-        margin-left: px;
-        margin-right: 10px;
+    .indexmain{
+        margin-right: 50px;
         margin-top: 100px;
-        margin-bottom: 930px;
+        margin-bottom: 980px;
     
     }
     .wordbox{
+        float: right;
+        max-width: 600px;
+        margin-right: 20px;
+        margin-left: 20px;
         color: white;
         background-color: rgba(68, 68, 68, 0.7);
     }
@@ -174,6 +312,48 @@
         font-size: 16px;
         color: white;
     }
+    .kavemain{
+        margin-top: 500px;
     }
-
-  
+    .valasztek{
+       /*text-align: center;*/
+       margin-left: 850px;
+       margin-right: 850px;
+       position: initial;
+       /*background: #D9D9D9;*/
+       border: 50px;
+       color: white;
+    }
+    .alcim{
+        /*text-align: center;*/
+        margin-left: 900px;
+        margin-right: 900px;
+        margin-top: 20px;
+        position: initial;
+        /*background: #D9D9D9;*/
+        border: 50px;
+        color: white;
+     }
+     .kavearak{
+        color: rgb(0, 0, 0);
+        margin-top: 100px;
+     }
+     .oszlop1{
+        margin-right: 1000px;
+        margin-left: 20px;
+     }
+     .oszlop2{
+        float: right;
+        margin-left: 500px;
+     }
+     table{
+        width: 1630px;
+        height: 295px;
+        margin-left: 45px;
+        margin-bottom: 40px;
+        font-size: 16px;
+        background: #E4D1B4;
+        border: 100px #E4D1B4;
+     }
+    }
+/*Tablet beállítások*/
