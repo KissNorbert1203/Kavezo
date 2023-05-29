@@ -261,8 +261,9 @@
     }
     header{
         background-color: #E4D1B4;        
-        height: 60px;
+        height: 50px;
         border: 0cm;
+        margin-top: 500px;
     }
     table{
         width: 1000px;
@@ -354,5 +355,9 @@
         background: #E4D1B4;
         border: 100px #E4D1B4;
      }
+<<<<<<< HEAD
+=======
+     
+>>>>>>> 06db030a4a8c2b05c7b1872ecfdd019eb41d2d7c
     }
 /*Tablet beállítások*/
