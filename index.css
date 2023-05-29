@@ -255,8 +255,8 @@
     .indexbody {
       background-image: url("kaveorlo.png");
       background-repeat: no-repeat;
-      background-size: 2200px;
-      background-position-x: -370px;
+      background-size: 2600px;
+      background-position-x: -350px;
       background-position-y: -275px;
       
     }
@@ -282,7 +282,7 @@
     footer{
         background-color: #E4D1B4;
         height: 40px;
-        margin-top: 1000px;
+        margin-top: 1250px;
         border: 0cm;
 
     }
