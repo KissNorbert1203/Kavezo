@@ -1,9 +1,4 @@
-.column {
-    float: left;
-    width: 25%;
-  }
-    
-    
+
     .indexbody {
       background-image: url("kaveorlo.png");
       background-repeat: no-repeat;
@@ -36,7 +31,6 @@
         background-color: #E4D1B4;
         height: 40px;
         border: 0cm;
-       
 
     }
 
@@ -59,8 +53,6 @@
         height: 40px;
         margin-top: 1020px;
         border: 0cm;
-        
-
     }
 
     .foothertext{
@@ -71,7 +63,6 @@
 
     }
 /*fejléc lábléc*/
-
 
     .indexmain{
         margin-right: 10px;
@@ -133,31 +124,21 @@
      }
 
      .oszlop1{
-        min-width: 2px;
+        margin-right: 1000px;
         margin-left: 20px;
 
      }
 
      .oszlop2{
         float: right;
-        margin-left: 5px;
+        margin-left: 500px;
 
      }
-     .col-12{
-        max-width: 1630px;
-        min-width: 10px;
 
-     }
-     .col-10{
-        
-     }
-
-     
      .kavetable{
-        min-width: 10px;
+        width: 1630px;
         height: 295px;
-        position: relative;
-        left: 46px;
+        
         margin-bottom: 40px;
         font-size: 16px;
         background: #E4D1B4;
@@ -273,29 +254,10 @@
     .indexbody {
       background-image: url("kaveorlo.png");
       background-repeat: no-repeat;
-      background-size: 2600px;
-      background-position-x: -350px;
+      background-size: 2200px;
+      background-position-x: -370px;
       background-position-y: -275px;
-      margin-top: 500px;
-    }
-    .süteménybody {
-        background-image: url("Cappuccino.jpg");
-        background-repeat: no-repeat;
-        background-size: 1800px;
-        background-position-x: -350px;
-        background-position-y: -20px;
-    }
-    .kavebody {
-         background-image: url("Cappuccino.jpg");
-         background-repeat: no-repeat;
-         background-size: 2100px;
-         background-position-x: -350px;
-         background-position-y: -20px;
-    }
-    .blogbody {
-        background-image: url("kaveorlo.png");
-        background-repeat: no-repeat;
-        background-size: 2600px;
+      
     }
     header{
         background-color: #E4D1B4;        
@@ -320,7 +282,7 @@
     footer{
         background-color: #E4D1B4;
         height: 40px;
-        margin-top: 1250px;
+        margin-top: 1000px;
         border: 0cm;
 
     }
@@ -395,8 +357,15 @@
         background: #E4D1B4;
         border: 100px #E4D1B4;
      }
+<<<<<<< HEAD
      .kfooter{
         
      }
+=======
+<<<<<<< HEAD
+=======
+     
+>>>>>>> 06db030a4a8c2b05c7b1872ecfdd019eb41d2d7c
+>>>>>>> 79ffe9612faf3038fd9acc8116acf07c8a50aadf
     }
 /*Tablet beállítások*/
