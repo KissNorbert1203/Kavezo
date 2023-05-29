@@ -41,7 +41,6 @@
         background-color: #E4D1B4;
         height: 40px;
         border: 0cm;
-       
 
     }
 
@@ -64,8 +63,6 @@
         height: 40px;
         margin-top: 1020px;
         border: 0cm;
-        
-
     }
 
     .foothertext{
@@ -76,7 +73,6 @@
 
     }
 /*fejléc lábléc*/
-
 
     .indexmain{
         margin-right: 10px;
@@ -138,31 +134,21 @@
      }
 
      .oszlop1{
-        min-width: 2px;
+        margin-right: 1000px;
         margin-left: 20px;
         float: left;
      }
 
      .oszlop2{
         float: right;
-        margin-left: 5px;
+        margin-left: 500px;
 
      }
-     .col-12{
-        max-width: 1630px;
-        min-width: 10px;
 
-     }
-     .col-10{
-        
-     }
-
-     
      .kavetable{
-        min-width: 10px;
+        width: 1630px;
         height: 295px;
-        position: relative;
-        left: 46px;
+        
         margin-bottom: 40px;
         font-size: 16px;
         background: #E4D1B4;
@@ -203,7 +189,7 @@
     header{
         background-color: #E4D1B4;
         height: 60px;
-        margin-top: 0px;
+        margin-top: -100px;
         border: 0cm;
     }
     .indexmain{
@@ -279,35 +265,17 @@
     .indexbody {
       background-image: url("kaveorlo.png");
       background-repeat: no-repeat;
-      background-size: 2600px;
-      background-position-x: -350px;
+      background-size: 2200px;
+      background-position-x: -370px;
       background-position-y: -275px;
-      margin-top: 500px;
-    }
-    .süteménybody {
-        background-image: url("Cappuccino.jpg");
-        background-repeat: no-repeat;
-        background-size: 1800px;
-        background-position-x: -350px;
-        background-position-y: -20px;
-    }
-    .kavebody {
-         background-image: url("Cappuccino.jpg");
-         background-repeat: no-repeat;
-         background-size: 2100px;
-         background-position-x: -350px;
-         background-position-y: -20px;
-    }
-    .blogbody {
-        background-image: url("kaveorlo.png");
-        background-repeat: no-repeat;
-        background-size: 2600px;
+      
     }
     header{
         background-color: #E4D1B4;        
         margin-top: -490px;
-        height: 60px;
+        height: 50px;
         border: 0cm;
+        margin-top: 500px;
     }
     table{
         width: 1000px;
@@ -326,7 +294,7 @@
     footer{
         background-color: #E4D1B4;
         height: 40px;
-        margin-top: 1250px;
+        margin-top: 1000px;
         border: 0cm;
 
     }
@@ -367,6 +335,7 @@
        /*background: #D9D9D9;*/
        border: 50px;
        color: white;
+       background-color: #E4D1B4;
     }
     .alcim{
         /*text-align: center;*/
@@ -377,6 +346,7 @@
         /*background: #D9D9D9;*/
         border: 50px;
         color: white;
+        background-color: #D9D9D9;
      }
      .kavearak{
         color: rgb(0, 0, 0);
@@ -399,10 +369,6 @@
         background: #E4D1B4;
         border: 100px #E4D1B4;
      }
-     .kfooter{
-        height: 40px;
-        margin-top: 1250px;
-        border: 0cm;
-     }
+
     }
 /*Tablet beállítások*/
