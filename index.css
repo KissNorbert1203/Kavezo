@@ -375,5 +375,9 @@
         margin-top: 111px;
         border: 0cm;
     }
+    body.blogbody{
+        background-image: url(kaveorlo.png);
+        background-repeat: no-repeat;
+    }
     }
 /*Tablet beállítások*/
