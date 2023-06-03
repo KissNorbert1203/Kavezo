@@ -326,6 +326,7 @@
     }
     .kavemain{
         margin-top: 500px;
+        background-image: url(ristretto.jpg);
     }
     .valasztek{
        /*text-align: center;*/
@@ -369,12 +370,5 @@
         background: #E4D1B4;
         border: 100px #E4D1B4;
      }
-     .süteménybody{
-
-     }
-     footer{
-        margin-top: 500px;
-     }
     }
-    
 /*Tablet beállítások*/
