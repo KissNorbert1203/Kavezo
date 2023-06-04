@@ -322,6 +322,7 @@
         background-color: #E4D1B4;
         height: 40px;
         border: 0cm;
+        
 
     }
     .foothertext{
@@ -398,12 +399,6 @@
         background: #E4D1B4;
         border: 100px #E4D1B4;
      }
-     .Sfooter{
-        background-color: #E4D1B4;
-        height: 40px;
-        margin-top: 111px;
-        border: 0cm;
-    }
     body.blogbody{
         background-image: url(kaveorlo.png);
         background-repeat: no-repeat;
