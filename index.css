@@ -114,28 +114,23 @@
 
     .valasztek{
        position: relative;
-       top: 400px;
+       top: 450px;
         text-align: center;
         font-size: xx-large; 
        border: 50px;
-       color: white;
-       background-color: #D9D9D9; 
+       color: rgb(0, 0, 0);
+
 
     }
 
     .alcim{
         text-align: center;
         margin-top: 20px;
-        width: 100px;
-        height: 20px;
         position: relative;
-        top: 405px;
+        top: 455px;
         font-size: larger;
         border: 50px;
-        color: white;
-        background-color: #E4D1B4;
-        
-
+        color: rgb(0, 0, 0);
      }
 
      .kavearak{
@@ -145,7 +140,12 @@
         top: 400px;
 
      }
-
+     .sutiarak{
+        color: rgb(0, 0, 0);
+        margin-top: 10px;
+        position: relative;
+        top: 500px;
+     }
      .oszlop1{
         margin-right: 10px;
         margin-left: 20px;
@@ -161,7 +161,6 @@
      .kavetable{
         width: 1630px;
         height: 295px;
-        
         margin-bottom: 40px;
         font-size: 16px;
         background: #E4D1B4;
