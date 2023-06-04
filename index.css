@@ -297,12 +297,11 @@
     footer{
         background-color: #E4D1B4;
         height: 40px;
-        margin-top: 1000px;
         border: 0cm;
 
     }
     .foothertext{
-        margin-top:  50px;
+        margin-top:  200px;
         margin-left: 0px;
         margin-right: 5px;
         margin-bottom: 10px;
@@ -329,6 +328,7 @@
     }
     .kavemain{
         margin-top: 500px;
+        background-image: url(ristretto.jpg);
     }
     .valasztek{
        /*text-align: center;*/
@@ -372,6 +372,15 @@
         background: #E4D1B4;
         border: 100px #E4D1B4;
      }
-
+     .Sfooter{
+        background-color: #E4D1B4;
+        height: 40px;
+        margin-top: 111px;
+        border: 0cm;
+    }
+    body.blogbody{
+        background-image: url(kaveorlo.png);
+        background-repeat: no-repeat;
+    }
     }
 /*Tablet beállítások*/
