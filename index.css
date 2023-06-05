@@ -5,7 +5,7 @@
     float: left;
     padding: 15px;
 }
-[class*="col-r"]{
+[class*="rol-"]{
     float: right;
     padding: 15px;
 }
@@ -54,14 +54,17 @@
         border: 0cm;
 
     }
-
     .butt{
         margin-top: 10px;
         margin-left: 5px;
         margin-right: 5px;
         background: none;
     }
-
+    .gomb{
+        margin-left: 1%;
+        margin-right: 1%;
+        background: none;
+    }
     .cim{
         margin-top: 15px;
         margin-left: 5px;
@@ -70,10 +73,9 @@
     }
 
     footer{
+
         background-color: #E4D1B4;
-        height: 40px;
-        margin-top: 400px;
-        border: 0cm;
+
     }
 
     .foothertext{
@@ -159,21 +161,16 @@
      }
 
      .kavetable{
-        width: 1630px;
-        height: 295px;
-        margin-bottom: 40px;
-        font-size: 16px;
-        background: #E4D1B4;
-        border: 100px #E4D1B4;
-
+        font-size: large;
+     }
+     .hatter{
+        background-color: #E4D1B4;
      }
      .kimg1{
         float: right;
         position: relative;
         right: 100px;
         top: 10px;
-
-        
      }
      .kimg2{
         float: left;
@@ -189,7 +186,15 @@
 /*Kávéválaszték*/
 
 
-
+.kepmeret{
+    width: 150%;
+    height: auto
+}
+.kepfelirat{
+    background-color: white;
+    font-size: large;
+    text-align: center;
+}
 /*Mediaquery dekstop*/
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -204,22 +209,12 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-
-.col-r-1 {width: 8.33%;}
-.col-r-2 {width: 16.66%;}
-.col-r-3 {width: 25%;}
-.col-r-4 {width: 33.33%;}
-.col-r-5 {width: 41.66%;}
-.col-r-6 {width: 50%;}
-.col-r-7 {width: 58.33%;}
-.col-r-8 {width: 66.66%;}
-.col-r-9 {width: 75%;}
-.col-r-10 {width: 83.33%;}
-.col-r-11 {width: 91.66%;}
-.col-r-12 {width: 100%;}
-
-
-
+.oszlop{
+    width: 8.33%;;
+    float: right;
+    padding: 15px;
+}  
+          
      
 
 /*Telefon Beállítások*/     
