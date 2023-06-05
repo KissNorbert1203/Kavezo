@@ -62,7 +62,7 @@
     footer{
         background-color: #E4D1B4;
         height: 40px;
-        margin-top: 1020px;
+        margin-top: 400px;
         border: 0cm;
     }
 
@@ -114,7 +114,7 @@
 
     .valasztek{
        position: relative;
-       top: 450px;
+       top: 570px;
         text-align: center;
         font-size: xx-large; 
        border: 50px;
@@ -127,7 +127,7 @@
         text-align: center;
         margin-top: 20px;
         position: relative;
-        top: 455px;
+        top: 580px;
         font-size: larger;
         border: 50px;
         color: rgb(0, 0, 0);
@@ -135,9 +135,9 @@
 
      .kavearak{
         color: rgb(0, 0, 0);
-        margin-top: 100px;
+        margin-top: 20px;
         position: relative;
-        top: 400px;
+        top: 350px;
 
      }
      .sutiarak{
@@ -171,15 +171,19 @@
         float: right;
         position: relative;
         right: 100px;
+        top: 10px;
+
+        
      }
      .kimg2{
         float: left;
         position: relative;
         left: 100px;
+        top: 10px;
         
      }
      .size{
-        width: 440px;
+        width: 450px;
         height: 370px;
      }
 /*Kávéválaszték*/
