@@ -1,4 +1,15 @@
-.column {
+* {
+    box-sizing: border-box;
+  }
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+}
+[class*="col-r"]{
+    float: right;
+    padding: 15px;
+}
+  .column {
     float: left;
     width: 25%;
   }
@@ -7,6 +18,7 @@
     clear: both;
     display: table;
   }
+
     
     
     .indexbody {
@@ -26,9 +38,7 @@
     .valasztekbody {
         background-image: url("Cappuccino.jpg");
         background-repeat: no-repeat;
-        background-size: 1800px;
-        background-position-x: -270px;
-        background-position-y: -20px;
+        background-size: cover;
     }
 
     .blogbody {
@@ -113,11 +123,8 @@
     }
 
     .valasztek{
-       position: relative;
-       top: 570px;
         text-align: center;
         font-size: xx-large; 
-       border: 50px;
        color: rgb(0, 0, 0);
 
 
@@ -125,11 +132,7 @@
 
     .alcim{
         text-align: center;
-        margin-top: 20px;
-        position: relative;
-        top: 580px;
         font-size: larger;
-        border: 50px;
         color: rgb(0, 0, 0);
      }
 
@@ -142,9 +145,6 @@
      }
      .sutiarak{
         color: rgb(0, 0, 0);
-        margin-top: 10px;
-        position: relative;
-        top: 500px;
      }
      .oszlop1{
         margin-right: 10px;
@@ -203,6 +203,20 @@
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+
+.col-r-1 {width: 8.33%;}
+.col-r-2 {width: 16.66%;}
+.col-r-3 {width: 25%;}
+.col-r-4 {width: 33.33%;}
+.col-r-5 {width: 41.66%;}
+.col-r-6 {width: 50%;}
+.col-r-7 {width: 58.33%;}
+.col-r-8 {width: 66.66%;}
+.col-r-9 {width: 75%;}
+.col-r-10 {width: 83.33%;}
+.col-r-11 {width: 91.66%;}
+.col-r-12 {width: 100%;}
 
 
 
