@@ -335,8 +335,7 @@
         background-color: #E4D1B4;
         height: 40px;
         border: 0cm;
-        
-
+        margin-top: 2000px;
     }
     .foothertext{
         margin-top:  200px;
@@ -422,6 +421,9 @@
         background-size: 1800px;
         background-position-x: -270px;
         background-position-y: -20px;
+    }
+    .lenti{
+        size: 500px;
     }
     }
 /*Tablet beállítások*/
